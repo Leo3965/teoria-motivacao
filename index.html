@@ -33,9 +33,13 @@
     </div>
   </nav>
 
-  <section id="image-section" class="section no-pad-bot no-pad-top background-image"></section>
+  <div class="parallax-container">
+    <div class="parallax">
+      <img alt="posts on a wall" src="imgs/motivational-text-yellow-background.jpg">
+    </div>
+  </div>
 
-  <div id="motivation-section" class="container">
+  <div id="motivation-section" class="parallax-container container">
     <br><br>
 
     <h3 class="header center blue-text">
@@ -43,7 +47,7 @@
     </h3>
 
     <div class="row center">
-      <sub class="header col s12 light">
+      <sub class="header col s12 light sub-text">
         O Objetivo do teste é descobrir qual a sua motivação predominante e como isso influência seu desempenho
         profissional
       </sub>
@@ -200,7 +204,7 @@
     <div class="row form-question">
       <div class="col s12 m8">
         <ul class="collection">
-          <li class="collection-item">Gosto mais de trabalhar em grupo do que sozinhoo</li>
+          <li class="collection-item">Gosto mais de trabalhar em grupo do que sozinho</li>
         </ul>
       </div>
 
@@ -407,104 +411,183 @@
 
   </section>
 
-  <div class="container hide">
+  <section id="table-section" class="container hide">
+    <table class="responsive-table">
+      <thead>
+        <tr>
+          <th>Realização</th>
+          <th>Relacionamento</th>
+          <th>Poder</th>
+        </tr>
+      </thead>
 
-    <div class="section">
+      <tbody>
+        <tr>
+          <td id="result-realization"></td>
+          <td id="result-relationship"></td>
+          <td id="result-power"></td>
+        </tr>
+      </tbody>
+    </table>
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+    <div class="divider"></div>
+  </section>
 
-            <p class="light">
-              We did most of the heavy lifting for you to provide a default stylings that incorporate our
-              custom components. Additionally, we refined animations and transitions to provide a smoother experience
-              for developers.
-            </p>
-          </div>
-        </div>
+  <section id="last-content-section" class="container">
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+    <br>
+    <blockquote>
+      A coluna de maior pontuação indica o seu perfil predominante e o que mais motiva você, de acordo com a teoria de
+      motivações de David C. McClelland.
+    </blockquote>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework
-              that incorporates components and animations that provide more feedback to users. Additionally, a single
-              underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
+    <br>
+    <h4 class="header center blue-text">
+      Significado das três características
+    </h4>
+    <br>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+    <p>
+      Veja o significado das três características de acordo com as Pesquisas realizadas por David C. McLelland, da
+      Universidade de Harvard.
+      Segundo as pesquisas e os estudos realizados por David C. McLelland revelam que são três os padrões motivacionais
+      relacionados às necessidades e desejos das pessoas dentro das organizações: realização, relacionamento e poder.
+    </p>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users
-              get started. We are also always open to feedback and can answer any questions a user may have about
-              Materialize.</p>
-          </div>
-        </div>
-      </div>
+    <p>
+      Veja abaixo as características de cada um:
+    </p>
 
-    </div>
-    <br><br>
-  </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+          <h5 class="center">Pessoas motivadas por realização</h5>
 
-  <div class="section no-pad-bot hide" id="index-banner">
-    <div class="container">
-      <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-      </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button"
-          class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
-
-    </div>
-  </div>
-
-  <footer class="page-footer orange">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
-            full time job. Any amount would help support and continue development on this project and is greatly
-            appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+          <ul class="light">
+            <li class="custom-bullet-list">Assumem responsabilidade pessoal por suas ações</li>
+            <li class="custom-bullet-list">Gostam de tomar iniciativa</li>
+            <li class="custom-bullet-list">Estabelecem metas elevadas, porém realistas</li>
+            <li class="custom-bullet-list">Procuram realizar o melhor desempenho possível</li>
+            <li class="custom-bullet-list">Gostam de fazer as coisas de maneira criativa e inovadora</li>
+            <li class="custom-bullet-list">Gostam de receber feedback para melhorar seu desempenho</li>
+            <li class="custom-bullet-list">São competitivas</li>
+            <li class="custom-bullet-list">Assumem riscos moderados (nem fáceis demais ou difíceis demais)</li>
           </ul>
+
         </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+          <h5 class="center">Pessoas motivadas por relacionamento</h5>
+
+          <ul class="light">
+            <li class="custom-bullet-list">Dão mais importância às pessoas do que às tarefas</li>
+            <li class="custom-bullet-list">Procuram amizade e aprovação das pessoas</li>
+            <li class="custom-bullet-list">Desejam relações próximas e amigáveis</li>
+            <li class="custom-bullet-list">São mais produtivas quando trabalham com outras pessoas num ambiente de
+              cooperação</li>
+            <li class="custom-bullet-list">Preocupam-se com o bem-estar da equipe</li>
+            <li class="custom-bullet-list">Interessam-se em resolver conflitos de forma amigável</li>
+            <li class="custom-bullet-list">Têm empatia com as pessoas e procuram fazer com que os indivíduos gostem
+              delas</li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+          <h5 class="center">Pessoas motivadas por poder</h5>
+
+          <ul class="light">
+            <li class="custom-bullet-list">Procuram exercer influência e controle sobre os outros</li>
+            <li class="custom-bullet-list">Gostam de impressionar e provocar impacto</li>
+            <li class="custom-bullet-list">Gostam de ocupar posições de liderança e comando</li>
+            <li class="custom-bullet-list">São competitivas</li>
+            <li class="custom-bullet-list">Apreciam prestígio e status</li>
+            <li class="custom-bullet-list">Assumem riscos elevados</li>
+            <li class="custom-bullet-list">Sabem persuadir e influenciar as pessoas</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <br>
+
+    <h4 class="header center blue-text">
+      Observações Gerais
+    </h4>
+
+    <p>
+      Em relação ao resultado do seu questionário poderá, por exemplo, ocorrer um escore que revela uma alta necessidade
+      de relacionamento, média necessidade de realização e baixa necessidade de poder. Isto mostra que você é uma pessoa
+      com caráter integrador e de ótima capacidade para coordenar trabalho de grupos.
+    </p>
+
+    <p>
+      Outro exemplo é de uma pessoa com alta pontuação em realização, média em poder, e baixa pontuação em
+      relacionamento. Demonstra que é um indivíduo com espírito empreendedor, com características inovadoras, e poderá
+      ser muito útil para ajudar no crescimento e expansão da organização.
+    </p>
+
+    <p>
+      Escores com alta pontuação em poder, média em realização e baixa em relacionamento mostram indivíduos muito
+      determinados, que sabem enfrentar situações de riscos e sentem-se seguros em comandar pessoas, embora com
+      tendência ao autoritarismo o que, eventualmente, poderá provocar conflito na equipe.
+    </p>
+
+    <p>
+      Pessoa cujo perfil é alto em relacionamento e alto em poder significa que ela tem necessidade de ser benquista,
+      mas, ao mesmo tempo, gosta de exercer controle sobre os outros. Nesse caso, muitas vezes, ela poderá sentir algum
+      conflito interno, porque tem que ajustar duas tendências opostas que não se coadunam.
+    </p>
+
+    <p>
+      Da mesma forma, uma alta pontuação em relacionamento e alta em realização, provoca uma dualidade difícil de
+      coexistir, pois coloca em oposição a necessidade de estar em harmonia com o grupo com a necessidade de agir
+      independentemente.
+    </p>
+    <br><br>
+  </section>
+
+  <footer class="page-footer blue">
+    <div class="container">
+      <div class="row">
+
+        <div class="col l6 s12">
+          <h5 class="white-text">Project Bio</h5>
+          <p class="grey-text text-lighten-4">
+            This project was initiated after the class on Wednesday (19/03/2025) of the Management by Art course, taught
+            by Professor Marco Lovizzaro.
+          </p>
+          <p>
+            Inspired by a story he shared about a student from another class who developed
+            a solution using Excel, I decided to take it a step further and create this web application.
+          </p>
+        </div>
+
         <div class="col l3 s12">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <!-- <li><a class="white-text" href="#!">mail</a></li> -->
           </ul>
         </div>
+
       </div>
     </div>
+
     <div class="footer-copyright">
       <div class="container">
-        Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Leonardo O. Freitas 😎</a>
+        Made by <a class="orange-text text-lighten-3" href="#!" target="_blank">Leonardo O. Freitas 😎</a>
       </div>
     </div>
+
   </footer>
 
 

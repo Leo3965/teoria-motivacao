@@ -1,8 +1,8 @@
 .background-image {
-    width: 100vw;      
+    width: 100vw;
     height: 30vh;
 
-    background-image: url('imgs/pexels-cottonbro-3831845.jpg'); 
+    background-image: url('imgs/pexels-cottonbro-3831845.jpg');
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -13,8 +13,12 @@
     justify-content: center;
     text-align: center;
     color: white;
-    border:none;
+    border: none;
     font-size: 18px;
+}
+
+.sub-text {
+    display: contents;
 }
 
 .paragraph {
@@ -31,4 +35,10 @@
 .form-question {
     display: flex;
     align-items: center;
+}
+
+.custom-bullet-list {
+    margin-bottom: 10px;
+    list-style-type: disc !important;
+    display: list-item;
 }

@@ -2,6 +2,10 @@ $(document).ready(function () {
     $('select').formSelect();
 });
 
+$(document).ready(function () {
+    $('.parallax').parallax();
+});
+
 const formResponseObject = {
     realization: 0,
     relationship: 0,
@@ -26,6 +30,10 @@ const q2 = document.getElementById('question-2');
 const q1 = document.getElementById('question-1');
 
 const formButton = document.getElementById("form-button");
+const tableSection = document.getElementById('table-section');
+const rRealization = document.getElementById('result-realization');
+const rRelationship = document.getElementById('result-relationship');
+const rPower = document.getElementById('result-power');
 
 formButton.onclick = function () {
     let q15Response = Number(q15.options[q15.selectedIndex].text);
@@ -48,7 +56,7 @@ formButton.onclick = function () {
         q6Response > 0 && q7Response > 0 && q8Response > 0 && q9Response > 0 && q10Response > 0 &&
         q11Response > 0 && q12Response > 0 && q13Response > 0 && q14Response > 0 && q15Response > 0)) {
 
-        alert("Existem afirmações que não foram selecionadas");
+        M.toast({ html: 'Existem afirmações que não foram selecionadas!' })
         return;
     }
 
@@ -60,6 +68,9 @@ formButton.onclick = function () {
     formResponseObject.relationship = relationship;
     formResponseObject.power = power;
 
-    console.log(formResponseObject);
+    tableSection.classList.toggle('hide');
+    rPower.innerText = power;
+    rRealization.innerText = realization;
+    rRelationship.innerText = relationship;
 }
 
