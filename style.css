@@ -27,3 +27,8 @@
     justify-content: center;
     align-content: center;
 }
+
+.form-question {
+    display: flex;
+    align-items: center;
+}
