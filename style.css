@@ -2,7 +2,7 @@
     width: 100vw;      
     height: 30vh;
 
-    background-image: url('imgs/motivation.jpg'); 
+    background-image: url('imgs/pexels-cottonbro-3831845.jpg'); 
     background-repeat: repeat;
     background-position: center;
     background-size: cover;
@@ -15,4 +15,15 @@
     color: white;
     border:none;
     font-size: 18px;
+}
+
+.paragraph {
+    margin-top: 3rem;
+}
+
+.custom-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
